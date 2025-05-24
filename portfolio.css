@@ -1,0 +1,146 @@
+body {
+    background-color: #6e7cb9;
+}
+
+header {
+     color: #ffffff;
+    height: 60px;
+   margin-bottom: 20px;
+    line-height: 10px;
+    text-align: center;
+    background-size: cover;
+     background-position: center;
+     padding: 50px;
+}
+
+
+nav {
+    background-color: #11045c;
+    height: 50px;
+    padding-top: 20px;
+    
+
+}
+
+nav a {
+    color: #fff;
+    padding: 10px 70px; 
+    line-height: 10px; 
+    font-size: 20px; 
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    nav a {
+        font-size: 14px;
+        padding: 3px 5px;
+        line-height: 24px;
+    }
+}
+
+    
+    
+    
+ 
+
+nav a {
+    color: #fff;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
+section {
+    background-color: #fff;
+    padding: 40px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* footer {
+    background-color: #240c8f;
+    color: #0a2f96;
+} */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #110b6b;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+p {
+    margin-bottom: 35px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+
+
+.project {
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 10px 20px;
+    transition: box-shadow 0.3s;
+    background-image: url(tech\ for\ portfolio.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.project p {
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+a.button:hover {
+    background-color: #ff5500;
+}
+header {
+    text-align: center;
+    padding: 40px 0;
+    background-image: linear-gradient(to right, #333, #0d0d8b);
+}
+/* Adjust font size for mobile devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+
+

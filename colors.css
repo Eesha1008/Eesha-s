@@ -1,0 +1,45 @@
+h1{
+    color: red;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
+.a{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+background-color: red;
+}
+
+
+.b{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+background-color: purple;
+}
+
+
+.c{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+background-color: blue;
+}
+
+
+
+.d{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+background-color: green;
+}

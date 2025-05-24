@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="colors.css" class="css">
+</head>
+<body>
+    <div id="container"><h1 id="head">I Am Header</h1>
+    <button type="button" onClick = "changeproperties()">show</button> 
+    <div class="main">
+        <div id="sub-heading">
+          <div id="button-wrapper">
+            <button type="button" class="a" onclick=""></button>
+            <button type="button" class="b" onclick=""></button>
+            <button type="button" class="c" onclick=""></button>
+            <button type="button" class="d" onclick=""></button>
+
+           </div>
+        </div>
+    </div>
+</div>
+    
+    <script>
+        function changeproperties (){
+            document.getElementById("head").style.color="green";
+            document.getElementById("head").style.fontSize="50px";
+            document.getElementById("head").style.backgroundColor="blue";
+
+        }
+    </script>
+</body>
+</html>
